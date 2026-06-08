@@ -1,5 +1,11 @@
 # EuroSAT Land Cover Classification using CNN with Residual Connections and Spatial Attention
 
+## 📌 Google Colab Notebook
+
+The full implementation of this project is available on Google Colab:
+
+https://colab.research.google.com/drive/1NU4XHFxnzoCozAU0_EPPT-lDeDh5ikZh?usp=sharing
+
 ## Overview
 
 This project implements a deep learning model for classifying satellite images from the EuroSAT dataset into 10 land-cover categories. A custom Convolutional Neural Network (CNN) with residual connections and a spatial attention mechanism is used to automatically learn important visual features from satellite imagery.
@@ -151,13 +157,19 @@ EuroSAT-LandCover-Classification/
 
 ---
 
-## Author
+## 📊 Results
 
-**Muhammad Saad Farooqui**
+### Training Curves
+![Training Plot](training_plot.png)
 
-BS Computer Science
+### Confusion Matrix
+![Confusion Matrix](conf_matrix.png)
 
-Deep Learning and Remote Sensing Image Classification Project
+### Sample Predictions
+![Predictions](predictions.png)
+
+### Grad-CAM Visualization
+![GradCAM](gradcam.png)
 
 ---
 
